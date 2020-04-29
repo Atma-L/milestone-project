@@ -1,0 +1,220 @@
+/*universal styles*/
+body, html {
+  height: 100%;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  background-color: #1f202b;
+  max-width: 1600px;
+}
+
+h1 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 36px;
+  color: #fa0075;
+  text-align: center;
+  padding-top: 30px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #1f202b;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned links */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*hero header---*/
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/hero-background.png');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 24px;
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 72px;
+  line-height: 70px;
+  text-align: left;
+  color: white;
+}
+
+.hero-text span {
+  color: #fa0075;
+}
+
+.hero-text a {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #fa0075;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text  a{
+  text-decoration: none;
+  color: black;
+}
+
+.hero-text a:hover {
+  background-color: #555;
+  color: white;
+}
+
+
+/* PORTFOLIO SECTION with two equal columns. I'd like to reduce the column size and keep it centred but not sure how*/
+#portfolio {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.image-block {
+  float: left;
+  width: 50%;
+  padding:30px;
+}
+
+.text-block {
+  float: left;
+  width: 50%;
+  color: white;
+  padding: 0 30px;
+}
+
+.left {
+  text-align: left;
+}
+
+/* left side column has right aligned text */
+.right {
+  text-align: right;
+}
+
+#portfolio h1 {
+  padding-top: 0px;
+}
+
+#portfolio h2 {
+  margin-bottom: -20px
+  }
+
+span.subtitle {
+  text-decoration: underline;
+}
+
+/* Clear floats after each sample */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*ABOUT ME-------------------------------------------------------------- */
+#about-me {
+  background-image: url('../img/about-me.jpg');
+  height: 100%;
+  max-width: 1600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.about-me-text {
+  text-align: left;
+  color: black;
+  overflow: auto;
+  max-width: 700px;
+  padding-left: 50px;
+}
+
+/* CONTACT SECTION */
+#contact {
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#contact p {
+  padding: 0;
+  margin: 10px;
+}
+/* CONTACT SECTION has three columns.------------------------------------------------- */
+.column-contact {
+  float: left;
+  width: 33%;
+  padding: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.column-contact p {
+  line-height: 20px;
+}
+
+ul.social-media img {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #fa0075;
+    width: 50px;
+    height: 50px;
+}
+
+ul.social-media li {
+  display: inline-block;
+  padding: 10px;
+}
+
+footer {
+  clear: both;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
