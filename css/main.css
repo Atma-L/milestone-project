@@ -63,7 +63,7 @@ h2 {
 
 .hero-text {
   font-family: 'Source Code Pro', monospace;
-  font-size: 24px;
+  /*font-size: 24px;*/
   text-align: left;
   position: absolute;
   top: 50%;
@@ -146,7 +146,8 @@ h2 {
   }
 
 span.subtitle {
-  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 18px;
 }
 
 /* Clear floats after each sample */
